@@ -25,7 +25,7 @@ const BottomNavigator = ({ navigation }) => {
       }}
     >
       <Tab.Screen
-        name="Home"
+        name="HomeNav"
         component={HomeNavigator}
         options={{
           headerShown: false,

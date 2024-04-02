@@ -13,19 +13,18 @@ const Intro = ({navigation}) => {
         transition={1000}
       />
 
-      <Text className="absolute top-96  font-bold text-white text-6xl px-2">
-        Change the way you money
+      <Text className="absolute  top-56 font-bold text-white text-6xl px-2">
+        Save, spend, send and invest smarter.
       </Text>
-      <Text className="absolute bottom-32 font-semibold text-white text-lg px-2">
-        For those who want more from their money.Experience banking at your
-        fingertips like never before. Join us today and unlock a world of
-        financial freedom right from your smartphone.
+      <Text className="absolute top-80 mt-40 font-semibold text-white text-lg px-2">
+        Experience banking at your fingertips like never before. Join us today
+        and unlock a world of financial freedom right from your smartphone.
       </Text>
-      <View className="absolute bottom-12 self-center">
+      <View className="absolute bottom-16 self-center">
         <TouchableOpacity onPress={() => navigation.navigate("Login")}>
-          <View 
+          <View
             style={{
-              width: width*0.95,
+              width: width * 0.95,
               height: 50,
               backgroundColor: "white",
               justifyContent: "center",
@@ -33,7 +32,22 @@ const Intro = ({navigation}) => {
               borderRadius: 5,
             }}
           >
-            <Text className='text-xl text-black font-bold'>Join now</Text>
+            <Text className="text-xl text-black font-bold">Log in</Text>
+          </View>
+        </TouchableOpacity>
+        <TouchableOpacity onPress={() => navigation.navigate("Login")}>
+          <View
+            style={{
+              width: width * 0.95,
+              height: 50,
+              backgroundColor: "black",
+              justifyContent: "center",
+              alignItems: "center",
+              marginTop: 12,
+              borderRadius: 5,
+            }}
+          >
+            <Text className="text-xl text-white font-bold">Join now</Text>
           </View>
         </TouchableOpacity>
       </View>

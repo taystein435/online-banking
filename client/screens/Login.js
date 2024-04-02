@@ -28,7 +28,7 @@ const Login = ({navigation}) => {
         placeholder="Enter your Password"
         right={<TextInput.Affix text="/100" />}
       />
-      <TouchableOpacity onPress={() => navigation.navigate("Home")}>
+      <TouchableOpacity onPress={() => navigation.navigate("BottomNav")}>
         <View
           style={{
             width: width * 0.95,

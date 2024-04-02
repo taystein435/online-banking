@@ -22,7 +22,7 @@ export default function StackNavigator() {
         }}
       />
       <Stack.Screen
-        name="Home"
+        name="BottomNav"
         component={BottomNavigator}
         options={{
           headerShown: false,
